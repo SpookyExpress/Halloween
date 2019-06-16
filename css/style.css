@@ -1,6 +1,6 @@
 body{
 	background-color: red;
-	background: url("images/redbrickbg.png");
+	background: url("../images/redbrickbg.png");
 	background-repeat: repeat;
 	font-size: 13pt;
 }
