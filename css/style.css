@@ -1,6 +1,6 @@
 body{
 	background-color: red;
-	background: url("../images/redbrickbg.png");
+	background: url("images/redbrickbg.png");
 	background-repeat: repeat;
 	font-size: 13pt;
 }
@@ -82,6 +82,9 @@ a:link{
 	text-decoration: none;
 }
 a:active{
+	color: red;
+}
+a:visited{
 	color: red;
 }
 .container{
@@ -229,7 +232,7 @@ a:active{
 }
 .row5{
 	position: absolute;
-	top: 250px;
+	top: 280px;
 	left: 50%;
 	transform: translate(-50%);
 	width: 1000px;
@@ -325,3 +328,33 @@ iframe{
 	font-size: 13pt;
 	line-height: 16pt;
 }
+.propname{
+	width: 1000px;
+	height: 40px;
+	padding-left: 50px;
+	box-sizing: border-box;
+	position: absolute;
+	font-family: 'Creepster', cursive;
+	color: red;
+	font-size: 24pt;
+	z-index: 400;
+	top: 220px;
+	left: 50%;
+	transform: translate(-50%);
+	line-height: 24pt;
+}
+.backlink{
+	width: 1000px;
+	height: 40px;
+	padding-left: 50px;
+	box-sizing: border-box;
+	position: absolute;
+	font-family: 'Varela', sans-serif;
+	color: red;
+	font-size: 16pt;
+	z-index: 400;
+	top: 1200px;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%);
+	line-height: 16pt;
