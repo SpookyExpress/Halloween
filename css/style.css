@@ -1,0 +1,327 @@
+body{
+	background-color: red;
+	background: url("images/redbrickbg.png");
+	background-repeat: repeat;
+	font-size: 13pt;
+}
+ul {
+  	list-style-position: outside;
+ 	list-style-type: square;
+ 	margin-left: 2em;
+}
+li{
+	padding-left: 10px;
+}
+figure{
+	display: inline-block;
+	font-family: 'Varela', sans-serif;
+	font-size: 11pt
+}
+#logo{
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	transform: translate(-50%);
+	width: 950px;
+	z-index: 100;
+}
+.navbar{
+	position: absolute;
+	background-color: white;
+	box-sizing: border-box;
+	top: 140px;
+	left: 50%;
+	transform: translate(-50%);
+	width: 1000px;
+	height: 50px;
+	z-index: 200;
+	text-align: center;
+}
+.navlinks{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.navlink{
+	position: relative;
+	padding: 6px;
+	margin-left: 20px;
+	margin-right: 20px;
+	top: 50%;
+	transform: translate(0, -50%);
+	font-family: 'Creepster', cursive;
+	color: black;
+	font-size: 26pt;
+	white-space: nowrap;
+	display: inline;
+}
+.livenavlink{
+	position: relative;
+	padding: 6px;
+	margin-left: 20px;
+	margin-right: 20px;
+	top: 50%;
+	transform: translate(0, -50%);
+	font-family: 'Creepster', cursive;
+	color: red;
+	background-color: black;
+	font-size: 26pt;
+	white-space: nowrap;
+	display: inline;
+}
+.navlink:active{
+	color: red;
+	background-color: black;
+}
+.navlink:hover{
+	color: white;
+	background-color: black;
+}
+a:link{
+	text-decoration: none;
+}
+a:active{
+	color: red;
+}
+.container{
+	position: fixed;
+	width: 1000px;
+	height: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: black;
+}
+.roomdecorcontainer{
+	position: fixed;
+	width: 1000px;
+	height: 100%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: black;
+}
+.pagedescription{
+	position: relative;
+	top: 195px;
+	left: 50%;
+	transform: translate(-50%);
+	width: 1000px;
+	height: 180px;
+	color: white;
+	padding: 30px;
+	z-index: 200;
+	font-family: 'Varela', sans-serif;
+	line-height: 16pt;
+	box-sizing: border-box;
+}
+.thumbnail{
+	position: relative;
+	width: 200px;
+	margin: 20px 20px 10px 20px;
+	z-index: 300;
+	box-sizing: border-box;
+	display: inline;
+}
+.row1{
+	position: absolute;
+	top: 515px;
+	left: 50%;
+	transform: translate(-50%);
+	width: 1000px;
+	height: 1000px;
+	color: white;
+	z-index: 200;
+	box-sizing: border-box;
+	text-align:center;
+}
+.rowlinks{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.roomdecorbar{
+	position: absolute;
+	background-color: red;
+	box-sizing: border-box;
+	top: 190px;
+	left: 50%;
+	transform: translate(-50%);
+	width: 1000px;
+	height: 50px;
+	z-index: 150;
+	text-align: center;
+}
+.roomdecorlinks{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.roomdecorlink{
+	position: relative;
+	padding: 6px;
+	margin-left: 20px;
+	margin-right: 20px;
+	top: 50%;
+	transform: translate(0, -50%);
+	font-family: 'Creepster', cursive;
+	color: white;
+	font-size: 24pt;
+	white-space: nowrap;
+	display: inline;
+}
+.pagedescription2{
+	position: relative;
+	top: 250px;
+	left: 50%;
+	transform: translate(-50%);
+	width: 1000px;
+	height: 180px;
+	color: white;
+	padding: 30px;
+	z-index: 200;
+	font-family: 'Varela', sans-serif;
+	line-height: 16pt;
+	box-sizing: border-box;
+}
+.row2{
+	position: absolute;
+	top: 650px;
+	left: 50%;
+	transform: translate(-50%);
+	width: 1000px;
+	height: 1000px;
+	color: white;
+	z-index: 200;
+	box-sizing: border-box;
+	text-align:center;
+}
+.row3{
+	position: absolute;
+	top: 770px;
+	left: 50%;
+	transform: translate(-50%);
+	width: 1000px;
+	height: 1000px;
+	color: white;
+	z-index: 200;
+	box-sizing: border-box;
+	text-align:center;
+}
+.row4{
+	position: absolute;
+	top: 510px;
+	left: 50%;
+	transform: translate(-50%);
+	width: 1000px;
+	height: 1000px;
+	color: white;
+	z-index: 200;
+	box-sizing: border-box;
+	text-align:center;
+}
+.emphasis{
+	font-family: 'Creepster', cursive;
+	display: inline-block;
+	color: red;
+}
+.row5{
+	position: absolute;
+	top: 250px;
+	left: 50%;
+	transform: translate(-50%);
+	width: 1000px;
+	height: 800px;
+	color: white;
+	z-index: 200;
+	box-sizing: border-box;
+	background-color: none;
+}
+.zoom{
+	position: absolute;
+	width: 380px;
+	height: 480px;
+	z-index: 300;
+	left: 50px;
+}
+.mediumthumb1{
+	position: absolute;
+	width: 63px;
+	height: 80px;
+	z-index: 300;
+	left: 450px;
+}
+.mediumthumb2{
+	position: absolute;
+	width: 63px;
+	height: 80px;
+	z-index: 300;
+	left: 450px;
+	top: 100px;
+}
+.mediumthumb3{
+	position: absolute;
+	width: 63px;
+	height: 80px;
+	z-index: 300;
+	left: 450px;
+	top: 200px;
+}
+.mediumthumb4{
+	position: absolute;
+	width: 63px;
+	height: 80px;
+	z-index: 300;
+	left: 450px;
+	top: 300px;
+}
+.mediumthumb5{
+	position: absolute;
+	width: 63px;
+	height: 80px;
+	z-index: 300;
+	left: 450px;
+	top: 400px;
+}
+.propinfo{
+	position: absolute;
+	width: 390px;
+	height: 480px;
+	background-color: red;
+	left: 560px;
+	padding: 30px;
+	box-sizing: border-box;
+}
+.propinfotext{
+	position: absolute;
+	font-family: 'Varela', sans-serif;
+	font-weight: bold;
+	font-size: 17pt;
+	text-align: left;
+}
+.propvideo{
+	position: absolute;
+	width: 330px;
+	height: 210px;
+	background-color: black;
+	top: 240px;
+	left: 50%;
+	transform: translate(-50%);
+}
+iframe{
+
+}
+.propdescription{
+	position: absolute;
+	top: 480px;
+	width: 1000px;
+	height: 600px;
+	padding: 50px;
+	box-sizing: border-box;
+	background-color: none;
+	font-family: 'Varela', sans-serif;
+	font-size: 13pt;
+	line-height: 16pt;
+}
